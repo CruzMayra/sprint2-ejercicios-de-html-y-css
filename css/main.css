@@ -1,0 +1,53 @@
+.squad {
+font-family: 'Anonymous Pro', monospace;
+font-size: 35px;
+color: #333333;
+}
+
+section > div {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 20px;
+  text-align: center;
+}
+
+section > div > span {
+  position: relative;
+  color:red;
+  top:180px;
+  color: whitesmoke;  /*#606176*/
+  font-family: 'Ubuntu Mono', monospace;
+  text-shadow: 3px 3px 2px #696;
+}
+
+.coder-uno {
+  background-image: url("../assets/images/coder-uno.JPG");
+  background-size: 200px, 200px;
+}
+
+.coder-dos {
+  background-image: url("../assets/images/coder-dos.JPG");
+  background-size: 200px, 200px;
+}
+
+.coder-tres {
+  background-image: url("../assets/images/coder-tres.JPG");
+  background-size: 200px, 200px;
+}
+
+.coder-cuatro {
+  background-image: url("../assets/images/coder-cuatro.JPG");
+  background-size: 200px, 200px;
+  clear: left;
+}
+
+.coder-cinco {
+  background-image: url("../assets/images/coder-cinco.JPG");
+  background-size: 200px, 200px;
+}
+
+.coder-seis {
+  background-image: url("../assets/images/coder-seis.JPG");
+  background-size: 200px, 200px;
+}
