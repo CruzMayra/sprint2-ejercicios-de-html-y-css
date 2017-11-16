@@ -141,7 +141,7 @@ header {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 170px;
+  padding-left: 150px;
   padding-right: 132px;
 }
 
@@ -149,6 +149,13 @@ header {
   width:75px;
   height:75px;
   float: right;
+  margin-top: 0;
+}
+
+.em {
+  margin: 28px;
+  font-weight: 900;
+  float: left;
 }
 
 .m-0 > .container {
@@ -168,5 +175,6 @@ header {
 }
 
 #third {
+  background: white;
   height: 535px;
 }
