@@ -71,6 +71,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
 }
 
 div > img {
@@ -127,11 +128,21 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
-header{
+header {
   background-color: white;
   width: 100%;
   height: 100px;
   position: relative;
+}
+
+#menu{
+  position: fixed;
+  background: white;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 170px;
+  padding-right: 132px;
 }
 
 .logo-menu {
