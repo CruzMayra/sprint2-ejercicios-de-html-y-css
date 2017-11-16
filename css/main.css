@@ -149,7 +149,6 @@ header {
   width:75px;
   height:75px;
   float: right;
-  margin-top: 0;
 }
 
 .em {
@@ -169,12 +168,56 @@ header {
   background-size: 1350px
 }
 
-#second {
+#first > .container > h2 {
+  font-size: 22px;
+  margin: 80px auto 0;
+}
+
+#first > .container > h1 {
+  font-size: 52px;
+  margin: 40px auto 0;
+  font-weight: bolder;
+}
+
+#first > .container > p {
+  font-size: 15px;
+  margin: 0px;
+}
+
+#first > .container > div {
+  font-size: 15px;
+  margin: 70px auto 0;
+  background: #25BD8D;
+  height: 40px;
+  width: 170px;
+  padding-top: 10px;
+  color: whitesmoke;
+}
+
+#services {
   background: #F17C72;
   height: 535px;
 }
 
-#third {
+#services > .container >h2 {
+  font-size: 30px;
+  margin: 80px auto 0;
+  font-weight: bolder;
+}
+
+#services > .container >h4 {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.serv-img {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  margin: 0 75px;
+}
+
+#work {
   background: white;
   height: 535px;
 }
