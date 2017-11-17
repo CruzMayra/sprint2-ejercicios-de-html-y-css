@@ -253,4 +253,17 @@ header {
   height: 300px;
   width: 300px;
   margin: 28px;
+  display: inline-block;
+/*  background: url("../assets/images/work-1.jpg");
+  background-size: 300px;*/
+}
+
+#work p {
+  bottom: 0;
+  right: 0;
+  color: #191919;
+  display: inline-block;
+  margin: 0 90px 40px;
+  weight: bolder;
+  font-size: 17px;
 }
