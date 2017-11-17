@@ -157,7 +157,7 @@ header {
   float: left;
 }
 
-.m-0 > .container {
+.mt-0 > .container {
   text-align: center;
   color: whitesmoke;
 }
@@ -165,7 +165,7 @@ header {
 #first {
   background-image: url("../assets/images/bg-home.jpg");
   height: 535px;
-  background-size: 1350px
+  background-size: cover;
 }
 
 #first h2 {
@@ -192,6 +192,7 @@ header {
   width: 170px;
   padding-top: 10px;
   color: whitesmoke;
+  weight: bolder;
 }
 
 #services {
@@ -211,7 +212,6 @@ header {
 }
 
 .serv-img {
-  margin: auto;
   height: 200px;
   width: 200px;
   margin: 0 75px;
@@ -220,14 +220,6 @@ header {
 #services .serv-cont {
   display: inline-block;
   margin: 0px 100px;
-}
-
-#services  h6 {
-  margin: 2px;
-}
-
-#services  h5 {
-  margin-bottom: 5px;
 }
 
 #work {
@@ -249,6 +241,10 @@ header {
   color: #191919;
 }
 
+#work .work-hero{
+  width: 100%;
+}
+
 #work .img-work {
   height: 300px;
   width: 300px;
@@ -262,7 +258,7 @@ header {
   color: #191919;
   display: inline-block;
   margin: 0 90px 40px;
-  weight: bolder;
+  font-weight: bolder;
   font-size: 17px;
 }
 
@@ -274,4 +270,66 @@ header {
   top:1900px;
   background-color: #191919;
   color:white;
+}
+ /*Estilos para el ejercicio de Pinterest*/
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-pinterest {
+  position: fixed;
+  width: 100%;
+  background: red;
+}
+
+main {
+  padding-top: 142px;
+}
+
+ .input-nav {
+   width: 550px;
+ }
+
+.search {
+   float: left;
+ }
+
+ .search > img {
+   margin: 0 30px;
+ }
+
+.icons {
+  float: right;
+}
+
+.icons > img {
+  margin: 0 30px;
+}
+
+.clear {
+  clear: left;
+  text-align: center;
+}
+
+section.clear > ol {
+  list-style: none;
+}
+
+.categories {
+  display: inline-block;
+  background: #B3837A;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+
+main  > section {
+  display: inline-table;
+  background: red;
+  width: 250px;
+  padding: 0;
+  margin: 0 10px;
 }
