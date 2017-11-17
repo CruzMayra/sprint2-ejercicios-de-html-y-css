@@ -254,8 +254,6 @@ header {
   width: 300px;
   margin: 28px;
   display: inline-block;
-/*  background: url("../assets/images/work-1.jpg");
-  background-size: 300px;*/
 }
 
 #work p {
@@ -266,4 +264,14 @@ header {
   margin: 0 90px 40px;
   weight: bolder;
   font-size: 17px;
+}
+
+#copyright {
+  margin:0px;
+  padding:10px;
+  position:relative;
+  text-align:center;
+  top:1900px;
+  background-color: #191919;
+  color:white;
 }
