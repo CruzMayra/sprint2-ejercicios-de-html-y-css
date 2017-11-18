@@ -282,23 +282,43 @@ body {
   position: fixed;
   width: 100%;
   background: red;
+  padding-top: 10px;
+}
+
+.principal-logo {
+  width: 40px;
+  height: 40px;
+  margin: 5px 30px;
+  float: left;
 }
 
 main {
-  padding-top: 142px;
+  padding-top: 170px;
 }
 
  .input-nav {
-   width: 550px;
+   width: 800px;
+   height: 40px;
+   display: inline-block;
+   background: #efefef;
+ }
+
+ .search p {
+   display: inline-block;
+   font-family: Helvetica;
+   font-weight: 700;
+   font-size: 16px;
+   color: #555;
  }
 
 .search {
    float: left;
+   font-family: Helvetica;
  }
 
- .search > img {
+ /*.search > img {
    margin: 0 30px;
- }
+ }*/
 
 .icons {
   float: right;
@@ -327,9 +347,12 @@ section.clear > ol {
 }
 
 main  > section {
-  display: inline-table;
-  background: red;
-  width: 250px;
+  background: white;
+  width: 100%;
   padding: 0;
-  margin: 0 10px;
+  columns: 4;
+}
+
+main > section > div {
+  margin: 20px;
 }
