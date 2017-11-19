@@ -281,14 +281,14 @@ body {
 .nav-pinterest {
   position: fixed;
   width: 100%;
-  background: red;
+  background: white;
   padding-top: 10px;
 }
 
 .principal-logo {
   width: 40px;
   height: 40px;
-  margin: 5px 30px;
+  margin: 0px 30px;
   float: left;
 }
 
@@ -301,24 +301,40 @@ main {
    height: 40px;
    display: inline-block;
    background: #efefef;
+   border-style: none;
  }
 
- .search p {
+ .search div {
    display: inline-block;
    font-family: Helvetica;
    font-weight: 700;
    font-size: 16px;
    color: #555;
+   background: #efefef;
  }
+
+.search .fa-search {
+font-size: 20px;
+color: black;
+margin-left: 10px;
+}
+
+.search .fa-sort {
+font-size: 50px;
+color: black;
+margin-left: 1px;
+}
 
 .search {
    float: left;
    font-family: Helvetica;
  }
 
- /*.search > img {
+ .icons > i {
    margin: 0 30px;
- }*/
+   padding: 10px;
+   color: #555;
+ }
 
 .icons {
   float: right;
@@ -331,6 +347,7 @@ main {
 .clear {
   clear: left;
   text-align: center;
+  padding: 5px 5px;
 }
 
 section.clear > ol {
@@ -339,11 +356,16 @@ section.clear > ol {
 
 .categories {
   display: inline-block;
-  background: #B3837A;
   color: white;
   padding: 10px;
   border-radius: 10px;
   margin: 10px 5px;
+  height:56px;
+  min-width:84px;
+  background-size:cover;
+  white-space:nowrap;
+  font-family: Helvetica;
+  font-weight: bolder;
 }
 
 main  > section {
@@ -355,4 +377,16 @@ main  > section {
 
 main > section > div {
   margin: 20px;
+}
+
+main > section > div > img {
+  width: 330px;
+}
+
+main > section > div > div {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #555;
+  line-height: 18px;
 }
