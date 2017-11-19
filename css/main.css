@@ -307,34 +307,27 @@ main {
  .search div {
    display: inline-block;
    font-family: Helvetica;
-   font-weight: 700;
-   font-size: 16px;
+   font-weight: bolder;
+   font-size: 20px;
    color: #555;
    background: #efefef;
+   padding: 0 20px;
  }
-
-.search .fa-search {
-font-size: 20px;
-color: black;
-margin-left: 10px;
-}
-
-.search .fa-sort {
-font-size: 50px;
-color: black;
-margin-left: 1px;
-}
 
 .search {
    float: left;
-   font-family: Helvetica;
  }
+
+i[class="fa fa-sort-desc"]{
+  font-size: 30px;
+}
 
  .icons > i {
    display: inline-block;
-   margin: 0 , 1.2%;
+   margin: 0  0.009%;
    padding: 10px;
    color: #555;
+   font-size: 25px;
  }
 
 .icons {
@@ -365,25 +358,26 @@ section.clear > ol {
   font-weight: bolder;
 }
 
-main  > section {
+main > section {
   background: white;
   width: 100%;
-  padding: 0;
+  padding: 1%;
   columns: 4;
 }
 
-main > section > div {
-  margin: 20px;
+main > section > article {
+  margin: 3%;
 }
 
-main > section > div > img {
-  width: 330px;
+main > section > article > img {
+  width: 340px;
 }
 
-main > section > div > div {
+main > section > article > div {
   font-family: Helvetica;
   font-size: 15px;
   font-weight: bolder;
   color: #555;
-  line-height: 18px;
+  line-height: 16px;
+  margin-top: 0px;
 }
